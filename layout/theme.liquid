@@ -6,6 +6,7 @@
 
     {% # Load and preload the critical CSS %}
     {{ 'critical.css' | asset_url | stylesheet_tag: preload: true }}
+    {{ 'tailwindcss.css' | asset_url | stylesheet_tag: preload: true }}
 
     {% # Social, title, etc. %}
     {% render 'meta-tags' %}
@@ -15,7 +16,7 @@
 
   <body>
     {% sections 'header-group' %}
-
+    <h2 class="text-black/80">Hello World</h2>
     {{ content_for_layout }}
 
     {% sections 'footer-group' %}
