@@ -8,16 +8,5 @@
  * ------------------------------------------------------------
  */
 {
-  "current": {
-    "sections": {
-      "announcement": {
-        "type": "announcement",
-        "settings": {
-          "show_announcement": true,
-          "announcement_text": "Announcement Bar"
-        }
-      }
-    },
-    "content_for_index": []
-  }
+  "markets": {}
 }
