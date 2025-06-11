@@ -3,7 +3,7 @@
 {% if section.settings.show_announcement %}
 <section class="announcement">
     <div class="container text-center">
-        <h2>announcement bar</h2>
+        <h2>{{ section.settings.announcement_text }}</h2>
     </div>
 </section>
 {% endif %}
@@ -18,7 +18,13 @@
         "id": "show_announcement",
         "label": "Show announcement",
         "default": true
-    }
+    },
+    {
+        "type": "text",
+        "id": "announcement_text",
+        "label": "Announcement Text",
+        "default": "Enter text here"
+    },
     ],
     "presets": []
 }
