@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "shopify theme dev --store=goneing.myshopify.com",
     "watch": "npx postcss src/tailwindcss.css -o assets/tailwindcss.css --watch",
-    "push" : "git add . && git commit -m 'push now' "
+    "push" : "git add . && git commit -m 'push now' && clear"
   },
   "repository": {
     "type": "git",
