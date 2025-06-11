@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "shopify theme dev",
-    "watch": " npx postcss src/tailwindcss.css -o assets/tailwindcss.css --watch"
+    "watch": "npx postcss src/tailwindcss.css -o assets/tailwindcss.css --watch"
   },
   "repository": {
     "type": "git",
