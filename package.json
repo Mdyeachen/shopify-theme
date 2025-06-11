@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "shopify theme dev",
+    "dev": "shopify theme dev --store=goneing.myshopify.com",
     "watch": "npx postcss src/tailwindcss.css -o assets/tailwindcss.css --watch"
   },
   "repository": {
