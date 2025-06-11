@@ -1,0 +1,25 @@
+{% comment %} announcement bar {% endcomment %}
+
+{% if section.settings.show_announcement %}
+<section class="announcement">
+    <div class="container text-center">
+        <h2>announcement bar</h2>
+    </div>
+</section>
+{% endif %}
+
+
+{% schema %}
+{
+    "name": "Announcement Bar",
+    "settings": [
+    {
+        "type": "checkbox",
+        "id": "show_announcement",
+        "label": "Show announcement",
+        "default": true
+    }
+    ],
+    "presets": []
+}
+{% endschema %}

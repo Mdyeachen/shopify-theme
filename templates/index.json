@@ -1,11 +1,11 @@
 {
   "sections": {
-    "text":{
-      "type":"text",
+    "hello-world":{
+      "type":"hello-world",
       "settings": {}
     }
   },
   "order":[
-    "text"
+    "hello-world"
   ]
 }
